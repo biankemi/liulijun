@@ -1,0 +1,24 @@
+{
+  "name": "vendor_name/liulijun",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "gelawoli",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+    "yiisoft/yii2": "~2.0.0",
+    "overtrue/wechat": "^5.0",
+    "firebase/php-jwt": "^5.4",
+    "ext-json": "*"
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    }
+  ]
+}
