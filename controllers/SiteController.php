@@ -10,4 +10,9 @@ class SiteController extends CommonController
     {
         return $this->fail("失败");
     }
+
+    public function actionDo()
+    {
+        return $this->success("alalal");
+    }
 }
